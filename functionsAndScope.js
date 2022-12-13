@@ -93,12 +93,13 @@ guacamoleMaker(mixIngredients);
 
 /*
  * Your code goes here
- */
-function playSoccer() {
-    console.log("GOAL!!!")
-}
+*/
+
 function playASport(playSoccer) {
-    playSoccer();
+    function playSoccer(){
+        console.log("GOAL!!!")
+    }
+    return playSoccer();
 }
 
-playASport(playSoccer);
+playASport();
